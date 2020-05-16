@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xMGYHCbDw9NjyRM/A2iE9Tucpv+jTYIAv7npCLwQMKWkj0R+iYcFh1UixPuSN9ZfkMOLgyzIzzut9U64fp1f6g==",
+  "success": true,
+  "projectFilePath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj",
+  "expectedPackageFiles": [
+    "/home/taw/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/taw/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,40 @@
+trigger:
+  - master
+
+pr:
+  - master
+
+stages:
+  - stage: build
+    jobs:
+      - job: build_api
+        steps:
+          - script: dotnet build  stagingProject/tour-api/aspnet/Tour.WebApi/*csproj
+
+      - job: build_angular
+        steps:
+          - script: npm run build
+
+# stages:
+#   - stage: build
+#     jobs:
+#       - job: build_api
+#         steps:
+#           - script: dotnet build aspnet/Tour.WebApi/*csproj
+  
+#   - stage: pack
+#     jobs:
+#       - job: pack_api
+#         steps:
+#           - task: Docker@2
+#             inputs:
+#               command: login
+#               containerRegistry: docker
+#           - script: |
+#               docker image build --file aspnet/dockerfile --tag hassanibrahim27/staging-api aspnet
+#               docker image push hassanibrahim27/staging-api
+#           - task: Docker@2
+#             inputs:
+#               command: logout
+#               containerRegistry: docker
+              

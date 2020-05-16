@@ -1,0 +1,25 @@
+networks:
+  skynet:
+
+services:
+    api:
+      build:
+        context: tour-api/aspnet
+        dockerfile: ../../.dockers/api.dockerfile
+      image: tango/tour-api
+      networks:
+        - skynet
+      ports: 
+        - 5001:80
+
+    client:
+      build:
+        context: tour-client/tour-heroes
+        dockerfile: ../../.dockers/angular.dockerfile 
+      image: tango/tour-angular
+      networks: 
+        - skynet
+      ports: 
+        - 4200:4200
+
+version: "3.7"

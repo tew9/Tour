@@ -1,0 +1,12 @@
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/bin/Debug/netstandard2.0/Tour.DataContext.deps.json
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/bin/Debug/netstandard2.0/Tour.DataContext.dll
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/bin/Debug/netstandard2.0/Tour.DataContext.pdb
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/bin/Debug/netstandard2.0/Tour.ObjectModel.dll
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/bin/Debug/netstandard2.0/Tour.ObjectModel.pdb
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/obj/Debug/netstandard2.0/Tour.DataContext.csprojAssemblyReference.cache
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/obj/Debug/netstandard2.0/Tour.DataContext.csproj.CoreCompileInputs.cache
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/obj/Debug/netstandard2.0/Tour.DataContext.AssemblyInfoInputs.cache
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/obj/Debug/netstandard2.0/Tour.DataContext.AssemblyInfo.cs
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/obj/Debug/netstandard2.0/Tour.DataContext.csproj.CopyComplete
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/obj/Debug/netstandard2.0/Tour.DataContext.dll
+/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/obj/Debug/netstandard2.0/Tour.DataContext.pdb

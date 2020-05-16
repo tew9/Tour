@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj": {}
+  },
+  "projects": {
+    "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj",
+        "projectName": "Tour.DataContext",
+        "projectPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj",
+        "packagesPath": "/home/taw/.nuget/packages/",
+        "outputPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/taw/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj": {
+                "projectPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/home/taw/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj",
+        "projectName": "Tour.ObjectModel",
+        "projectPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj",
+        "packagesPath": "/home/taw/.nuget/packages/",
+        "outputPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/taw/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/home/taw/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

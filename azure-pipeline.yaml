@@ -56,7 +56,7 @@ stages:
       - job: pack_angular
         steps:
           - task: Docker@2
-          - inputs:
+            inputs:
               command: login
               containerRegistry: docker
           - script: |
@@ -66,7 +66,7 @@ stages:
             inputs:
               command: logout
               containerRegistry: docker
-              
+
           
             
   

@@ -29,7 +29,7 @@ stages:
     jobs: 
       - job: test_api
         steps:
-          - script:dotnet test tour-api/aspnet/Tour.Testing
+          - script: dotnet test tour-api/aspnet/Tour.Testing
         
       - job: test_angular
         steps:

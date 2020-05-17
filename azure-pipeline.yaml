@@ -4,16 +4,16 @@ trigger:
 pr:
   - master
 
-stages:
-  - stage: restore
-    jobs:
-      - job: restore_api
-        steps:
-          - script: dotnet restore tour-api/aspnet
+# stages:
+#   - stage: restore
+#     jobs:
+#       - job: restore_api
+#         steps:
+#           - script: dotnet restore tour-api/aspnet
 
-      - job: restore_angular
-        steps:
-          - script: npm install --prefix tour-client/tour-heroes
+#       - job: restore_angular
+#         steps:
+#           - script: npm install --prefix tour-client/tour-heroes
 
   - stage: build
     jobs:
@@ -26,16 +26,16 @@ stages:
           - script: npm install --prefix tour-client/tour-heroes
           - script: npm run build --progress=false --prefix tour-client/tour-heroes
   
-  - stage: test
-    jobs: 
-      - job: test_api
-        steps:
-          - script: dotnet test tour-api/aspnet/Tour.Testing
+  # - stage: test
+  #   jobs: 
+  #     - job: test_api
+  #       steps:
+  #         - script: dotnet test tour-api/aspnet/Tour.Testing
         
-      - job: test_angular
-        steps:
-          - script: npm install --prefix tour-client/tour-heroes
-          # - script: npm run test --prefix tour-client/tour-heroes
+  #     - job: test_angular
+  #       steps:
+  #         - script: npm install --prefix tour-client/tour-heroes
+  #         # - script: npm run test --prefix tour-client/tour-heroes
     
   - stage: pack
     jobs:
@@ -47,6 +47,11 @@ stages:
               containerRegistry: docker
           - script: |
               docker image build --file .dockers/api.dockerfile --tag tangotew/tour-api tour-api/aspnet
+              docker image push tangotew/tour-api
+          - task: Docker@2
+            inputs:
+              command: logout
+              containerRegistry: docker
   
 #   - stage: pack
 #     jobs:

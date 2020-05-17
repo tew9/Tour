@@ -19,7 +19,7 @@ stages:
     jobs:
       - job: build_api
         steps:
-          - script: dotnet build  --no-restore tour-api/aspnet/Tour.WebApi/*csproj
+          - script: dotnet build  tour-api/aspnet/Tour.WebApi/*csproj
 
       - job: build_angular
         steps:

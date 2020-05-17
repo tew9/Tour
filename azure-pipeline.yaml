@@ -25,7 +25,7 @@ stages:
         steps:
           - script: npm run build --progress=false --prefix tour-client/tour-heroes
   
-  - stage: test:
+  - stage: test
     jobs: 
       - job: test_api
         steps:

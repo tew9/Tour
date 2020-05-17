@@ -5,15 +5,15 @@ pr:
   - master
 
 stages:
-  - stage: restore
-    jobs:
-      - job: restore_api
-        steps:
-          - script: dotnet restore tour-api/aspnet
+  # - stage: restore
+  #   jobs:
+  #     - job: restore_api
+  #       steps:
+  #         - script: dotnet restore tour-api/aspnet
 
-      - job: restore_angular
-        steps:
-          - script: npm install --prefix tour-client/tour-heroes
+  #     - job: restore_angular
+  #       steps:
+  #         - script: npm install --prefix tour-client/tour-heroes
 
   - stage: build
     jobs:

@@ -5,15 +5,15 @@ pr:
   - master
 
 stages:
-  # - stage: restore
-  #   jobs:
-  #     - job: restore_api
-  #       steps:
-  #         - script: dotnet restore tour-api/aspnet
+  - stage: restore
+    jobs:
+      - job: restore_api
+        steps:
+          - script: dotnet restore tour-api/aspnet
 
-  #     - job: restore_angular
-  #       steps:
-  #         - script: npm install --prefix tour-client/tour-heroes
+      - job: restore_angular
+        steps:
+          - script: npm install --prefix tour-client/tour-heroes
 
   - stage: build
     jobs:
@@ -22,17 +22,18 @@ stages:
           - script: dotnet build  tour-api/aspnet/Tour.WebApi/*csproj
 
       - job: build_angular
-      
         steps:
-          - script: npm install --prefix tour-client/tour-heroes
           - script: npm run build --progress=false --prefix tour-client/tour-heroes
-
-# stages:
-#   - stage: build
-#     jobs:
-#       - job: build_api
-#         steps:
-#           - script: dotnet build aspnet/Tour.WebApi/*csproj
+  
+  - stage: test:
+    jobs: 
+      - job: test_api
+        steps:
+          - script:dotnet test tour-api/aspnet/Tour.Testing
+        
+      - job: test_angular
+        steps:
+          - script: npm run test --prefix tour-client/tour-heroes
   
 #   - stage: pack
 #     jobs:

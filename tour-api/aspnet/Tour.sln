@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tour.ObjectModel", "Tour.Ob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tour.WebApi", "Tour.WebApi\Tour.WebApi.csproj", "{27321AA8-37F1-4625-A704-A2A5C7C476E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tour.Testing", "Tour.Testing\Tour.Testing.csproj", "{BA22DF75-70CD-4109-AA62-346A85646609}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{27321AA8-37F1-4625-A704-A2A5C7C476E0}.Release|x64.Build.0 = Release|Any CPU
 		{27321AA8-37F1-4625-A704-A2A5C7C476E0}.Release|x86.ActiveCfg = Release|Any CPU
 		{27321AA8-37F1-4625-A704-A2A5C7C476E0}.Release|x86.Build.0 = Release|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Debug|x64.Build.0 = Debug|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Debug|x86.Build.0 = Debug|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Release|x64.ActiveCfg = Release|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Release|x64.Build.0 = Release|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Release|x86.ActiveCfg = Release|Any CPU
+		{BA22DF75-70CD-4109-AA62-346A85646609}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

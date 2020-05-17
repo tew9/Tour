@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Tour.DataContext\Tour.DataContext.csproj" />
     <ProjectReference Include="..\Tour.ObjectModel\Tour.ObjectModel.csproj" />
+    <ProjectReference Include="..\Tour.Testing\Tour.Testing.csproj" />
   </ItemGroup>
 
   <ItemGroup>

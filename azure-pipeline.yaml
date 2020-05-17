@@ -11,17 +11,19 @@ stages:
         steps:
           - script: dotnet restore tour-api/aspnet
 
+      - job: restore_angular
+        steps:
+          - script: npm install --prefix tour-client/tour-heroes
+
   - stage: build
     jobs:
       - job: build_api
         steps:
           - script: dotnet build tour-api/aspnet/Tour.WebApi/*csproj
 
-      - job: restore_angular
-        steps:
-          - script: npm install --prefix tour-client/tour-heroes
       - job: build_angular
         steps:
+          - script: npm install --prefix tour-client/tour-heroes
           - script: npm run build --progress=false --prefix tour-client/tour-heroes
   
   - stage: test

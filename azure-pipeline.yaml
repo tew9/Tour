@@ -23,7 +23,7 @@ stages:
 
       - job: build_angular
         steps:
-          - script: npm run build --prefix tour-client/tour-heroes
+          - script: npm run build --progress=false --prefix tour-client/tour-heroes
 
 # stages:
 #   - stage: build

@@ -11,16 +11,15 @@ stages:
         steps:
           - script: dotnet restore tour-api/aspnet
 
-      - job: restore_angular
-        steps:
-          - script: npm install --prefix tour-client/tour-heroes
-
   - stage: build
     jobs:
       - job: build_api
         steps:
-          - script: dotnet build  tour-api/aspnet/Tour.WebApi/*csproj
+          - script: dotnet build tour-api/aspnet/Tour.WebApi/*csproj
 
+      - job: restore_angular
+          steps:
+            - script: npm install --prefix tour-client/tour-heroes
       - job: build_angular
         steps:
           - script: npm run build --progress=false --prefix tour-client/tour-heroes
@@ -34,6 +33,17 @@ stages:
       - job: test_angular
         steps:
           - script: npm run test --prefix tour-client/tour-heroes
+    
+  - stage: pack
+    jobs:
+      - job: pack_api
+        steps:
+          - task: Docker@2
+            inputs:
+              command: login
+              containerRegistry: docker
+          - script: |
+              docker image build --file .dockers/api.dockerfile --tag tangotew/tour-api tour-api/aspnet
   
 #   - stage: pack
 #     jobs:

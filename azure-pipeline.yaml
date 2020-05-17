@@ -60,8 +60,8 @@ stages:
               command: login
               containerRegistry: docker
           - script: |
-             docker image build  --file .dockers/angular.dockerfile --tag tangotew/tour-angular tour-client/tour-heroes
-             docker image push tangotew/tour-angular
+              docker image build  --file .dockers/angular.dockerfile --tag tangotew/tour-angular tour-client/tour-heroes
+              docker image push tangotew/tour-angular
           - task:
             inputs:
               command: logout

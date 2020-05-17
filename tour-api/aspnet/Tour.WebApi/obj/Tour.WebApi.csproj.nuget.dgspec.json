@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/taw/Dev/Tour/tour-api/aspnet/Tour.WebApi/Tour.WebApi.csproj": {}
+    "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.WebApi/Tour.WebApi.csproj": {}
   },
   "projects": {
-    "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj": {
+    "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj",
+        "projectUniqueName": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj",
         "projectName": "Tour.DataContext",
-        "projectPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj",
+        "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj",
         "packagesPath": "/home/taw/.nuget/packages/",
-        "outputPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/obj/",
+        "outputPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.DataContext/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/taw/.nuget/NuGet/NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj": {
-                "projectPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj"
+              "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj": {
+                "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj"
               }
             }
           }
@@ -61,14 +61,14 @@
         }
       }
     },
-    "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj": {
+    "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj",
+        "projectUniqueName": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj",
         "projectName": "Tour.ObjectModel",
-        "projectPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj",
+        "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj",
         "packagesPath": "/home/taw/.nuget/packages/",
-        "outputPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/obj/",
+        "outputPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/taw/.nuget/NuGet/NuGet.Config"
@@ -114,14 +114,14 @@
         }
       }
     },
-    "/home/taw/Dev/Tour/tour-api/aspnet/Tour.WebApi/Tour.WebApi.csproj": {
+    "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.WebApi/Tour.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.WebApi/Tour.WebApi.csproj",
+        "projectUniqueName": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.WebApi/Tour.WebApi.csproj",
         "projectName": "Tour.WebApi",
-        "projectPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.WebApi/Tour.WebApi.csproj",
+        "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.WebApi/Tour.WebApi.csproj",
         "packagesPath": "/home/taw/.nuget/packages/",
-        "outputPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.WebApi/obj/",
+        "outputPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/taw/.nuget/NuGet/NuGet.Config"
@@ -135,11 +135,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj": {
-                "projectPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj"
+              "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj": {
+                "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.DataContext/Tour.DataContext.csproj"
               },
-              "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj": {
-                "projectPath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj"
+              "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj": {
+                "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj"
               }
             }
           }

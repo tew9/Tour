@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+PRDNq9WgPfBx0cchu10ZIA7bQ3Z+FMkwe2tNTbesfsiQ8Qwu3W/gioWc/SMIGpkmxWtDCkmSg7lH7opH1DrQA==",
+  "dgSpecHash": "8hWpmRqt9V4ZFq5SvboavZABydX52fAdinkj5L+6OqwpsBC2ZtHKrMMVFm/F1r8wIVLzxzcTY0Wf8j2E/rmqbg==",
   "success": true,
-  "projectFilePath": "/home/taw/Dev/Tour/tour-api/aspnet/Tour.WebApi/Tour.WebApi.csproj",
+  "projectFilePath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.WebApi/Tour.WebApi.csproj",
   "expectedPackageFiles": [
     "/home/taw/.nuget/packages/microsoft.aspnetcore.authorization/1.0.2/microsoft.aspnetcore.authorization.1.0.2.nupkg.sha512",
     "/home/taw/.nuget/packages/microsoft.aspnetcore.cors/2.2.0/microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

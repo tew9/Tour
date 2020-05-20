@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/Tour.Domains.csproj": {}
+  },
+  "projects": {
+    "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/Tour.Domains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/Tour.Domains.csproj",
+        "projectName": "Tour.Domains",
+        "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/Tour.Domains.csproj",
+        "packagesPath": "/home/taw/.nuget/packages/",
+        "outputPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/taw/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/home/taw/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

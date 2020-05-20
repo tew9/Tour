@@ -4,13 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Server.IISIntegration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using Tour.DataContext;
+using Tour.Domains.interfaces;
+using Tour.Domains.Models;
 
 namespace Tour.WebApi
 {
@@ -26,6 +26,13 @@ namespace Tour.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<HeroDatabaseSetting>(Configuration.GetSection(nameof(HeroDatabaseSetting)));
+
+            services.AddSingleton<IHeroDatabaseSetting>(sp =>
+                    sp.GetRequiredService<IOptions<HeroDatabaseSetting>>().Value);
+
+             services.AddSingleton<HeroRepository>();
+
             services.AddControllers();
             
             // Register the Swagger services

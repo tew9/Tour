@@ -7,3 +7,12 @@
 /home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/obj/Debug/netstandard2.0/Tour.ObjectModel.AssemblyInfo.cs
 /home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/obj/Debug/netstandard2.0/Tour.ObjectModel.dll
 /home/taw/Dev/Tour/tour-api/aspnet/Tour.ObjectModel/obj/Debug/netstandard2.0/Tour.ObjectModel.pdb
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/bin/Debug/netstandard2.0/Tour.ObjectModel.deps.json
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/bin/Debug/netstandard2.0/Tour.ObjectModel.dll
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/bin/Debug/netstandard2.0/Tour.ObjectModel.pdb
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/obj/Debug/netstandard2.0/Tour.ObjectModel.csprojAssemblyReference.cache
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/obj/Debug/netstandard2.0/Tour.ObjectModel.csproj.CoreCompileInputs.cache
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/obj/Debug/netstandard2.0/Tour.ObjectModel.AssemblyInfoInputs.cache
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/obj/Debug/netstandard2.0/Tour.ObjectModel.AssemblyInfo.cs
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/obj/Debug/netstandard2.0/Tour.ObjectModel.dll
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/obj/Debug/netstandard2.0/Tour.ObjectModel.pdb

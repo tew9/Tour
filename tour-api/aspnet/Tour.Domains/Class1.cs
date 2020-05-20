@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tour.DataContext
+namespace Tour.Domains
 {
     public class Class1
     {

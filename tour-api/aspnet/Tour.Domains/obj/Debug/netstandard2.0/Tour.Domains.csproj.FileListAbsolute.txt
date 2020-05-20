@@ -1,0 +1,9 @@
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/bin/Debug/netstandard2.0/Tour.Domains.deps.json
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/bin/Debug/netstandard2.0/Tour.Domains.dll
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/bin/Debug/netstandard2.0/Tour.Domains.pdb
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/obj/Debug/netstandard2.0/Tour.Domains.csprojAssemblyReference.cache
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/obj/Debug/netstandard2.0/Tour.Domains.csproj.CoreCompileInputs.cache
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/obj/Debug/netstandard2.0/Tour.Domains.AssemblyInfoInputs.cache
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/obj/Debug/netstandard2.0/Tour.Domains.AssemblyInfo.cs
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/obj/Debug/netstandard2.0/Tour.Domains.dll
+/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/obj/Debug/netstandard2.0/Tour.Domains.pdb

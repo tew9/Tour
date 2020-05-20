@@ -25,8 +25,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj": {
-                "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj"
+              "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/Tour.Domains.csproj": {
+                "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/Tour.Domains.csproj"
               }
             }
           }
@@ -40,6 +40,18 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "MongoDB.Driver.core": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -61,14 +73,14 @@
         }
       }
     },
-    "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj": {
+    "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/Tour.Domains.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj",
-        "projectName": "Tour.ObjectModel",
-        "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/Tour.ObjectModel.csproj",
+        "projectUniqueName": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/Tour.Domains.csproj",
+        "projectName": "Tour.Domains",
+        "projectPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/Tour.Domains.csproj",
         "packagesPath": "/home/taw/.nuget/packages/",
-        "outputPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.ObjectModel/obj/",
+        "outputPath": "/home/taw/Dev/Tour-final/tour-api/aspnet/Tour.Domains/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/taw/.nuget/NuGet/NuGet.Config"
@@ -93,6 +105,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

@@ -10,7 +10,7 @@ services:
       networks:
         - skynet
       ports: 
-        - 80:80
+        - 5001:80
 
     client:
       build:

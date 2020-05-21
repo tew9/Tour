@@ -11,7 +11,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HeroService {
   HEROES: Hero[] = HEROES;
-  url = 'https://127.0.0.1:5001/Tour';
+  url = 'http://ec2-52-14-24-91.us-east-2.compute.amazonaws.com/Tour';
   headers = new Headers({'Content-Type': 'application/json'});
   options = { header: this.headers, withCredentials: false };
 

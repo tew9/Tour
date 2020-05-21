@@ -10,7 +10,7 @@ services:
       networks:
         - skynet
       ports: 
-        - 5001:80
+        - 80:80
 
     client:
       build:
@@ -20,6 +20,6 @@ services:
       networks: 
         - skynet
       ports: 
-        - 4200:4200
+        - 4200:80
 
 version: "3.7"

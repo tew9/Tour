@@ -1,0 +1,670 @@
+    1  cat
+    2  $ sudo apt-get remove docker docker-engine docker.io containerd runc
+    3  sudo apt-get update
+    4  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+    5  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    6  sudo apt-key fingerprint 0EBFCD88
+    7  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+    8     $(lsb_release -cs) \
+    9     stable"
+   10  sudo apt-get update
+   11  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   12  sudo docker run hello-world
+   13  sudo add-apt-repository    "deb [arch=arm64] https://download.docker.com/linux/ubuntu \
+   14     $(lsb_release -cs) \
+   15     stable"
+   16  sudo apt-get update
+   17  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   18  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   19  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   20  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu eoan test"
+   21  sudo docker run hello-world
+   22  sudo apt update
+   23  apt-cache search docker-ce
+   24  docker-ce - Docker: the open-source application container engine
+   25  sudo docker run hello-world
+   26  dockerd
+   27  sudo apt-get remove docker docker-engine docker.io containerd runc
+   28  sudo apt-get update
+   29  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+   30  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   31  sudo apt-key fingerprint 0EBFCD88
+   32  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   33     $(lsb_release -cs) \
+   34     stable"
+   35  sudo apt-get update
+   36  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   37  sudo docker run hello-world
+   38  dockerd
+   39  sudo
+   40  sudodockerd
+   41  docker
+   42  cd Tour/tour-client/
+   43  cd tour-heroes/
+   44  npm run ng serve
+   45  cd ..
+   46  cd tour-api/
+   47  ls
+   48  cd aspnet
+   49  ls
+   50  cd Tour.WebApi/
+   51  dotnet run
+   52  sudo snap install -g dotnet-sdk
+   53  sudo snap install dotnet-sdk
+   54  sudo snap install dotnet-sdk --classic
+   55  dotnet build
+   56  sudo apt install dotnet-sdk --classic
+   57  sudo apt install dotnet-sdk 
+   58  snap install dotnet-sdk
+   59  snap help refresh
+   60  brew
+   61  docker -h
+   62  sudo systemctl docker start
+   63  sudo systemctl start docker
+   64  docker container ls
+   65  sudo docker container ls
+   66  ls
+   67  cd Documents/
+   68  cd ..
+   69  mkidr Development
+   70  mkdir Dev
+   71  cd Dev
+   72  code .
+   73  git clone git@github.com:stagingProject/tour-client.git
+   74  git clone https://github.com/stagingProject/tour-client.git
+   75  cd tour-client/
+   76  cd ..
+   77  mkdir Tour
+   78  git init
+   79  git clone https://github.com/stagingProject/tour-client.git
+   80  cd ..
+   81  cd Dev/
+   82  sudo rm tour-client/
+   83  sudo rm -rf tour-client/
+   84  cd Tour/
+   85  git clone https://github.com/stagingProject/tour-client.git
+   86  git add .
+   87  git submodule add https://github.com/stagingProject/tour-client.git Tour/tour-client
+   88  ls
+   89  sudo rm -rf tour-client/
+   90  cd Tour/
+   91  ls
+   92  cd ..
+   93  git add .
+   94  git status
+   95  git add ../.gitmodules 
+   96  git status
+   97  git commit -m "adding module"
+   98  git config --global user.email 'tangogatdet76@gmail.com'
+   99  git config --global user.name 'tew9'
+  100  git commit -m "adding module"
+  101  git remote add origin https://github.com/stagingProject/Tour.git
+  102  git push -u origin master
+  103  git submodule add https://github.com/stagingProject/tour-api.git tour-api
+  104  ls
+  105  git rm -fg Tour/
+  106  git rm -rf Tour/
+  107  ls
+  108  git rm -rf Tour/
+  109  git submodule add https://github.com/stagingProject/tour-client.git tour-client
+  110  ls
+  111  git add .
+  112  git commit -m "add both submodule"
+  113  cd tour-client/
+  114  ls
+  115  cd tour-heroes/
+  116  ng serve
+  117  npm install -g @angular/cli
+  118  sudo npm install -g @angular/cli
+  119  node -v
+  120  cd ..
+  121  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+  122  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+  123  nvm use 12.16.3
+  124  sudo npm -g n
+  125  sudo npm -g nvm
+  126  sudo npm install -g n
+  127  node -v
+  128  nvm use 12.16.3
+  129  sudo npm install -g n 12.16.3
+  130  sudo npm install -g n n12.16.3
+  131  sudo npm install -g n n 12.16.3
+  132  node -v
+  133  node -h
+  134  cd Dev/
+  135  cd Tour/
+  136  ls
+  137  cd tour-client/
+  138  cd ..
+  139  cd tour-api/
+  140  code .
+  141  cd ..
+  142  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-3.1.100-linux-x64.tar.gz -C $HOME/dotnet
+  143  export DOTNET_ROOT=$HOME/dotnet
+  144  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-3.1.100-linux-x64.tar.gz -C $HOME/dotnet
+  145  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-3.1.202-linux-musl-x64.tar.gz -C $HOME/dotnet
+  146  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-3.1.202-linux-armx64.tar.gz -C $HOME/dotnet
+  147  mkdir -p $HOME/Downloads/dotnet && tar zxf dotnet-sdk-3.1.202-linux-armx64.tar.gz -C $HOME/dotnet
+  148  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-3.1.202-linux-musl-x64.tar.gz -C $HOME/dotnet
+  149  mkdir -p $HOME/Downloads/ && tar zxf dotnet-sdk-3.1.202-linux-musl-x64.tar.gz -C $HOME/dotnet
+  150  ls
+  151  cd dotnet/
+  152  ls
+  153  xport DOTNET_ROOT=$HOME/dotnet
+  154  export DOTNET_ROOT=$HOME/dotnet
+  155  export PATH=$PATH:$HOME/dotnet
+  156  ls
+  157  cd ..
+  158  dotnet
+  159  sudo snap install dotnet-sdk
+  160  sudo rm -rf dotnet/
+  161  ls
+  162  cd Downloads/
+  163  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-3.1.201-linux-x64.tar.gz -C $HOME/dotnet
+  164  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-3.1.202-linux-x64.tar.gz -C $HOME/dotnet
+  165  cd ..
+  166  ls
+  167  export DOTNET_ROOT=$HOME/dotnet
+  168  export PATH=$PATH:$HOME/dotnet
+  169  dotnet
+  170  gedit ~/.bashrc 
+  171  dotnet
+  172  cd aspnet/Tour.WebApi/
+  173  dotnet restore
+  174  dotnet 
+  175  dotnet
+  176  cd Dev/
+  177  cd Tour/
+  178  code .
+  179  cd ..
+  180  sudo apt install nodejs
+  181  node -b
+  182  node -v
+  183  nvm
+  184  nvm use 12.16.3
+  185  nvm install 12.16.3
+  186  nvm use 12.16.3
+  187  npm install -g @angular/cli
+  188  sudo groupadd docker
+  189  sudo usermod -aG docker ${taw}
+  190  sudo usermod -aG docker $taw
+  191  sudo usermod -G docker $taw
+  192  sudo usermod -G docker-a $taw
+  193  sudo usermod -G docker -a $taw
+  194  sudo usermod login
+  195  sudo usermod Login
+  196  sudo usermod -G docker -a $taw
+  197  sudo usermod -G docker LOGIN
+  198  sudo usermod -G docker $taw
+  199  dockerd-rootless.sh --experimental
+  200  sudo gpasswd -a $taw docker
+  201  sudo gdocker -a $USER taw
+  202  sudo gpasswd -a $taw taw
+  203  sudo gpasswd -a taw docker
+  204  su -h
+  205  su -s taw
+  206  sudo su -s taw
+  207  sudo -s taw
+  208  gnome-session-quit 
+  209  cd tour-client/tour-heroes/
+  210  ls
+  211  cd ..
+  212  cd tour-api/
+  213  cd aspnet/Tour.WebApi/
+  214  dotnet build
+  215  dotnet run
+  216  cd ..
+  217  docker image build -t tour-api ./aspnet
+  218  sudo docker image build -t tour-api ./aspnet
+  219  sudo docker image build -t tour-api .
+  220  dotnet build aspnet/Tour.WebApi/
+  221  sudo docker image build -t tour-api .
+  222  sudo docker image build -t tour-api ./aspnet
+  223  sudo docker image build -t tour-api .
+  224  docker container run --rm --it tour-api
+  225  docker container run --rm -it tour-api
+  226  sudo docker container run --rm -it tour-api
+  227  sudo docker container run --rm -it -P 80:5000 tour-api
+  228  sudo docker container run --rm -it  tour-api -P
+  229  docker container ls
+  230  sudo docker container ls
+  231  sudo docker container run --rm -it  -p 80:5000 tour-api 
+  232  cd tour-api/
+  233  docker-compose up --build -d
+  234  docker-compose -h
+  235  docker-compose up --build -d
+  236  touch .dockerignore
+  237  docker-compose up --build -d
+  238  docker-compose down
+  239  docker-compose up 
+  240  docker-compose down
+  241  docker-compose up --build
+  242  docker-compose down
+  243  docker-compose up --build
+  244  cd ..
+  245  cd tour-client/
+  246  cd ..
+  247  docker image build -t tango/tour-angular ./.docker
+  248  docker image build -t tango/tour-angular ./docker
+  249  docker image build -t tango/tour-angular ./.docker
+  250  ls
+  251  docker image build -t tango/tour-angular ./
+  252  docker image build --file .docker/angular.dockerfile -t tango/tour-angular .
+  253  docker image build -t tango/tour-angular ./.dockers
+  254  docker image build --file .dockers/angular.dockerfile -t tango/tour-angular .
+  255  cd tour-client/
+  256  cd tour-heroes/
+  257  ng build
+  258  ng --version
+  259  npm install
+  260  npm audit fix -f
+  261  ng build
+  262  cd ..
+  263  docker image build --file .dockers/angular.dockerfile -t tango/tour-angular .
+  264  docker image build --file .dockers/angular.dockerfile -t tango/tour-angular ../tour-client/tour-heroes
+  265  docker image build --file .dockers/angular.dockerfile -t tango/tour-a
+  266  docker-compose up --build -d
+  267  docker-compose down
+  268  docker-compose up --build -d
+  269  docker container ls
+  270  docker-compose down
+  271  docker-compose up --build -d
+  272  docker container ls
+  273  docker-compose down
+  274  docker-compose up --build -d
+  275  docker container ls
+  276  docker-compose down
+  277  docker-compose up --build -d
+  278  docker-compose down
+  279  docker-compose up --build -d
+  280  docker-compose down
+  281  docker-compose up --build -d
+  282  docker container ls
+  283  curl http://localhost:4200/
+  284  sudo curl http://localhost:4200/
+  285  sudo curl http://localhost:5001/
+  286  sudo curl http://localhost:5001/Tour
+  287  docker-compose down
+  288  git remote add origin https://github.com/stagingProject/Tour.git
+  289  git add .
+  290  git commit -m "add structure"
+  291  git push -u origin master
+  292  git add .
+  293  git commit -m "change the structure"
+  294  git push origin master
+  295  docker-compose up --build -d
+  296  docker-compose down
+  297  cd tour-client/tour-heroes/
+  298  ng build
+  299  docker 
+  300  docker container
+  301  docker container ls
+  302  cd Dev/
+  303  cd Tour/
+  304  code .
+  305  docker-compose
+  306  sudo systemctl docker start
+  307  sudo service docker start
+  308  docker-compose
+  309  service --status-all
+  310  docker image -h
+  311  docker image ls
+  312  docker-compose
+  313  sudo apt install docker-compose
+  314  cd ..
+  315  sudo apt install gdebi
+  316  udo apt install ./zoom_amd64.deb
+  317  sudo apt install ./zoom_amd64.deb
+  318  cd Downloads/
+  319  sudo yum localinstall zoom_x86_64.rpm
+  320  sudo apt install yum
+  321  sudo apt localinstall zoom_x86_64.rpm
+  322  cd ..
+  323  sudo apt install kazam
+  324  cd Dev/
+  325  cd Tour/
+  326  git remote rm origin
+  327  git remote origin add https://github.com/stagingProject/Tour.git
+  328  code .
+  329  cd  tour-client/
+  330  git add .
+  331  git commit -m "fix docker file"
+  332  cd ..
+  333  git add .
+  334  git commit -m "fix docker file"
+  335  git push origin master
+  336  docker-compose up --build -d
+  337  docker-compose up -d
+  338  cd tour-client/
+  339  git add .
+  340  git commit -m "fix client url"
+  341  git push origin master
+  342  cd ..
+  343  cd tour-api/
+  344  git status
+  345  git push origin master
+  346  cd ..
+  347  git add .
+  348  git commit -m "automate angular build"
+  349  git push origin master
+  350  git status
+  351  docker-compose down
+  352  cd Dev/
+  353  cd Tour/
+  354  git add .
+  355  git statys
+  356  git status
+  357  git add tour-api/
+  358  git add tour-client/
+  359  git status
+  360  ls
+  361  code .
+  362  cd tour-client/
+  363  git add .
+  364  git status
+  365  git commit -m "change files"
+  366  cd ..
+  367  git status
+  368  cd tour-api/
+  369  git add .
+  370  git commit -m "change corse"
+  371  cd ..
+  372  git add .
+  373  git status
+  374  git commit -m "final docker-compose"
+  375  sudo systemctl docker start
+  376  sudo service docker start
+  377  docker-compose up --build -d
+  378  docker container ls
+  379  docker-compose down
+  380  cd Tour/
+  381  git add .
+  382  git commit -m "pipeline build"
+  383  git push origin master
+  384  git add .
+  385  git commit -m "pipeline build"
+  386  git push origin master
+  387  git add .
+  388  git commit -m "pipeline build"
+  389  git push origin master
+  390  git add .
+  391  git commit -m "pipeline building"
+  392  git push origin master
+  393  git add .
+  394  git commit -m " build"
+  395  git push origin master
+  396  git add .
+  397  git commit -m " build"
+  398  git push origin master
+  399  git add .
+  400  git commit -m "pipeline  build"
+  401  git push origin master
+  402  git add .
+  403  git commit -m "pipeline  build"
+  404  git push origin master
+  405  git add .
+  406  git commit -m "pipeline  build"
+  407  git push origin master
+  408  cd ..
+  409  cd Tour-final/
+  410  git init
+  411  mkdir tour-api
+  412  mkdir tour-client
+  413  git remote add origin https://github.com/stagingProject/Tour-final.git
+  414  git push origin master
+  415  git status
+  416  git add .
+  417  git status
+  418  git commit -m "first commit"
+  419  git remote
+  420  git remote rm origin
+  421  git remote add origin https://github.com/stagingProject/Tour-final.git
+  422  git push origin master
+  423  code .
+  424  git status 
+  425  git commit -m "first commit"
+  426  git push origin masTER
+  427  git push origin master
+  428  npm run build tour-client/tour-heroes/
+  429  npm run build --prefix tour-client/tour-heroes/
+  430  npm install --prefix tour-client/tour-heroes/
+  431  cd tour-client/
+  432  cd tour-heroes/
+  433  npm install
+  434  sudo service docker start
+  435  cd Dev/
+  436  code .
+  437  cd Dev/
+  438  cd Tour-final/
+  439  code .
+  440  git add .
+  441  npm run build --prefix tour-client/tour-heroes/
+  442  npm install --prefix tour-client/tour-heroes/
+  443  dotnet restore tour-api/
+  444  dotnet restore tour-api/aspnet/
+  445  git add .
+  446  git commit -m "add restore for api and client"
+  447  git push origin master
+  448  git add .
+  449  git commit -m "edit build"
+  450  git push origin master
+  451  npm run build --prefix tour-client/tour-heroes
+  452  git add .
+  453  npm --max_old_space_size=8192 node_modules/@angular/cli/bin/ng build --prefix tour-client/tour-heroes/
+  454  npm run --max_old_space_size=8192 node_modules/@angular/cli/bin/ng build --prefix tour-client/tour-heroes/
+  455  node --max_old_space_size=8192 node_modules/@angular/cli/bin/ng build --prefix tour-client/tour-heroes/
+  456  npm run build --progress=false --prefix tour-client/tour-heroes
+  457  git add .
+  458  git commit -m "edit build"
+  459  git push origin master
+  460  git add .
+  461  git commit -m "edit build"
+  462  git push origin master
+  463  git add .
+  464  git commit -m "edit build"
+  465  git push origin master
+  466  cd tour-api/
+  467  dotnet new xunit -n Tour.Testing
+  468  dotnet sln add **/*.csproj
+  469  cd aspnet/
+  470  dotnet sln add **/*.csproj
+  471  dotnet add Tour.WebApi/Tour.WebApi.csproj reference Tour.Testing/Tour.Testing.csproj 
+  472  dontet test Tour.Testing/
+  473  dotnet test Tour.Testing/
+  474  cd ..
+  475  npm run test --prefix tour-client/tour-heroes/
+  476  git add .
+  477  git commit -m "edit build"
+  478  git push origin master
+  479  git add .
+  480  git commit -m "edit build"
+  481  git push origin master
+  482  git commit -m "edit build"
+  483  git add .
+  484  git commit -m "edit build"
+  485  git push origin master
+  486  git fetch 
+  487  git rebase 
+  488  git add .
+  489  git commit -m "edit build"
+  490  git rebase origin/master 
+  491  git add .
+  492  git commit -m "edit build"
+  493  git push origin master
+  494  git add .
+  495  git commit -m "edit build"
+  496  git push origin master
+  497  git add .
+  498  git commit -m "edit build"
+  499  git push origin master
+  500  git add .
+  501  git commit -m "edit build"
+  502  git push origin master
+  503  git add .
+  504  git commit -m "edit build"
+  505  git push origin master
+  506  git add .
+  507  git commit -m "edit build"
+  508  git push origin master
+  509  git add .
+  510  git commit -m "edit build"
+  511  git push origin master
+  512  cd Dev/
+  513  cd Tour-final/
+  514  code .
+  515  Tour-final/
+  516  cd 
+  517  cd Dev/Tour-final/
+  518  cd tour-api/
+  519  code .
+  520  cd aspnet/Tour.DataContext/
+  521  dotnet add Tour.DataContext.csproj package  MongoDB.Driver.Core -Version 2.10.4
+  522  dotnet add Tour.DataContext.csproj package  MongoDB.Driver --Version 2.10.4
+  523  dotnet add Tour.DataContext.csproj package  MongoDB.Driver.Core --Version 2.10.4
+  524  dotnet add package MongoDB.Driver --version 2.10.4
+  525  dotnet add package MongoDB.Driver.core --version 2.10.4
+  526  dotnet add package MongoDB.Bson --version 2.10.4
+  527  cd ..
+  528  Tour.WebApi/
+  529  cd Tour.WebApi/
+  530  dotnet run
+  531  dotnet add ../Tour.DataContext/Tour.DataContext.csproj reference Tour.WebApi.csproj 
+  532  cd ..
+  533  donet new classlib -n Tour.DataContext
+  534  dotnet new classlib -n Tour.DataContext
+  535  cd ..
+  536  cd aspnet/
+  537  dotnet sln add **/*.csproj
+  538  dotnet add Tour.WebApi/Tour.WebApi.csproj package MongoDB.Bson --version 2.10.4
+  539  dotnet add Tour.WebApi/Tour.WebApi.csproj package MongoDB.Driver --version 2.10.4
+  540  dotnet add Tour.DataContext/Tour.DataContext.csproj  package MongoDB.Driver --version 2.10.4
+  541  dotnet add Tour.DataContext/Tour.DataContext.csproj  package MongoDB.Bson --version 2.10.4
+  542  dotnet add Tour.DataContext/Tour.DataContext.csproj  package MongoDB.Driver.core --version 2.10.4
+  543  dotnet add Tour.DataContext/Tour.DataContext.csproj reference Tour.WebApi/Tour.WebApi.csproj 
+  544  dotnet add Tour.WebApi/Tour.WebApi.csproj reference Tour.DataContext/Tour.DataContext.csproj 
+  545  dotnet new classlib -n Tour.Domains
+  546  dotnet sln add **/*.csproj
+  547  dotnet add Tour.WebApi/Tour.WebApi.csproj reference Tour.Domains/Tour.Domains.csproj 
+  548  dotnet add Tour.DataContext/Tour.DataContext.csproj reference Tour.Domains/Tour.Domains.csproj 
+  549  dotnet add Tour.Domains/Tour.Domains.csproj  package MongoDB.Bson --version 2.10.4
+  550  cd Tour.WebApi/
+  551  dotnet run
+  552  cd Dev/
+  553  code .
+  554  cd ~
+  555  sudo service mongodb start
+  556  sudo service mongod start
+  557  sudo service mongodb start
+  558  sudo apt-get update
+  559  sudo apt-get install -y mongodb-org
+  560  sudo systemctl daemon-reload
+  561  sudo systemctl status mongodb
+  562  sudo systemctl status mongod
+  563  sudo apt-get install mongodb
+  564  sudo apt-get update
+  565  sudo systemctl status mongod
+  566  sudo service mongodb start
+  567  sudo service mongodb status
+  568  mongo
+  569  sudo service --status-all
+  570  mongo
+  571  cd tour-api/
+  572  cd aspnet/Tour.WebApi/
+  573  dotnet run
+  574  sudo service mongodb starty
+  575  sudo service mongodb start
+  576  mongo --version
+  577  mongo "mongodb+srv://cluster0-mpctq.mongodb.net/test" --username tango
+  578  cd Dev/
+  579  cd Tour-final/
+  580  code .
+  581  mongo
+  582  sudo service mongodb stop
+  583  cd tour-api/
+  584  cd aspnet/
+  585  cd Tour.WebApi/
+  586  dotnet run
+  587  cd ..
+  588  git add .
+  589  git commit -m "add remote mongodb connection strring"
+  590  git fetch origin master
+  591  git rebase -m origin/master 
+  592  git rebase --abort
+  593  dotnet restore
+  594  cd tour-api/
+  595  cd aspnet/Tour.WebApi/
+  596  dotnet restore
+  597  cd ../../
+  598  cd ..
+  599  git pull
+  600  git pull origin master
+  601  git retore --all
+  602  git restore --all
+  603  git restore -S
+  604  git status
+  605  git restore tour-api/
+  606  git status
+  607  git pull origin master
+  608  git log
+  609  git reset 5ec56e400c9d4a4738f980dc
+  610  git reset --help
+  611  git reset soft
+  612  git log
+  613  git reset --hard 5ec56e400c9d4a4738f980dc
+  614  git reset --hard master@{"10 minutes ago"}
+  615  git push origin master
+  616  docker
+  617  docker-compose up --build
+  618  docker-compose down
+  619  cd tour-client/tour-heroes/
+  620  ng run
+  621  ng serve
+  622  cd Dev/
+  623  cd Tour-final/
+  624  code .
+  625  sudo service docker start
+  626  sudo service mongodb start
+  627  mongo
+  628  cd ~
+  629  sudo service mongodb start
+  630  mongo
+  631  mongo "mongodb+srv://cluster0-mpctq.mongodb.net/test" --username tango
+  632  https://downloads.mongodb.org/linux/mongodb-shell-linux-x86_64-ubuntu1804-4.2.6.tgz
+  633  sudo apt-get install https://downloads.mongodb.org/linux/mongodb-shell-linux-x86_64-ubuntu1804-4.2.6.tgz
+  634  mongo "mongodb+srv://cluster0-mpctq.mongodb.net/test" --username tango
+  635  mongo "mongodb://cluster0-shard-00-00-mpctq.mongodb.net:27017,cluster0-shard-00-01-mpctq.mongodb.net:27017,cluster0-shard-00-02-mpctq.mongodb.net:27017/test?replicaSet=Cluster0-shard-0" --ssl --authenticationDatabase admin --username tango --password Mercy511
+  636  ssh -i "dotnet-docker-keypair.pem" ubuntu@ec2-3-120-98-108.eu-central-1.compute.amazonaws.com
+  637  cd Dev/
+  638  cd Tour-final/
+  639  ssh -i "dotnet-docker-keypair.pem" ubuntu@ec2-3-120-98-108.eu-central-1.compute.amazonaws.com
+  640  Tip: If you are taking breaks while following the series, do not leave the instance running for long periods of time, since you have a limited amount of running time on your free AWS tier. You can right click on the instance and select Instance State Stop, and then Start it again when you continue working.
+  641  Cloning and Understanding the Sample API
+  642  Once inside the instance, it is time to get the API code and set up the Docker container. You can get the sample application made for this tutorial by running:
+  643  git clone https://github.com/Mirch/docker-dotnet-api.git
+  644  cd docker-dotnet-api/
+  645  This repository includes a solution with an ASP.NET Core WebAPI project, as well as a Dockerfile that will be used to build the Docker image. The API contains a single endpoint, which can be called as verification that everything is working as expected. To check the endpoint, run the following command:
+  646  cat DockerDotnetApi/Controllers/TestController.cs
+  647  You should see something like the figure below:
+  648  The other part of the project is the Dockerfile; you can read it by running:
+  649  cat Dockerfile
+  650  This contains the steps to build, publish and run the API inside the Docker container; it’s easier to understanding by breaking it down. The first line, shown below, clones the official .NET Docker image for the .NET Core 3.0 SDK and sets the work directory to /app; this image is used to build the project.
+  651  Next up, the project files are copied from the main directory to the /app directory that was just created, and then the application is published by running dotnet publish. This has the result you would expect when running this command in any environment – the application and its dependencies are compiled and deployed into a folder. In this case, the main artefact will be a .dll file, which is placed in the /out/ folder.
+  652  Finally, the ASP.NET Core runtime image is cloned – this is needed to run the application, as opposed to the SDK image that was previously used to build it. The work directory is set again to /app, the published artefacts are copied from the build-env image, and the image’s entry point is set to run the .dll.
+  653  Running the Docker Image
+  654  Before being able to start the Docker container, the docker.io package needs to be installed on the machine:
+  655  sudo apt update
+  656  cd ..
+  657  ls
+  658  ssh -i "docker-api-key.pem" ubuntu@ec2-3-120-98-108.eu-central-1.compute.amazonaws.com
+  659  sudo x-special/nautilus-clipboard
+  660  chmod 400 docker-api-key.pem
+  661  ssh -i "docker-api-key.pem" ubuntu@ec2-3-21-227-45.us-east-2.compute.amazonaws.com
+  662  git remote rm origin
+  663  git remote add origin https://github.com/tew9/Tour.git
+  664  git push -u origin master
+  665  cd ..
+  666  cd ..\
+  667  cd ..
+  668  cd Dev/
+  669  cd Tour-final/
+  670  history > commands.txt

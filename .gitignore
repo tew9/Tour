@@ -1,1 +1,5 @@
 access-key.txt
+params.json
+infrastructure.yaml
+docker-api-key.pem
+docker-angular-key.pem

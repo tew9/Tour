@@ -1,0 +1,68 @@
+Description: Creating an EC2 instance.
+Resources:
+  MainInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-07c1207a9d40bc3bd 
+      InstanceType: t2.micro
+  
+  # MainSecurityGroup: 
+  #   Type: AWS::EC2::SecurityGroup
+  #   Properties:
+  #     GroupDescription: SecurityGroup for the api instance.
+  #     VcpId: !Ref VPC
+  #     SecurityGroupIngress:
+  #       SecurityGroupIngress:
+  #         - IpProtocol: tcp
+  #           FromPort: 80
+  #           ToPort: 80
+  #           CidrIp: 0.0.0.0/0
+  #       SecurityGroupEgress:
+  #         - IpProtocol: tcp
+  #           FromPort: 0
+  #           ToPort: 65535
+  #           CidrIp: 0.0.0.0/0
+        
+  # VPC:
+  #   Type: AWS::EC2::VPC
+  #   Properties:
+  #     CidrBlock: 192.168.0.0/16
+  #     EnableDnsSupport: true
+  #     EnableDnsHostnames: true
+  
+  # InternetGateway:
+  #   Type: AWS::EC2::InternetGateway
+  # InternetGatewayAttachment:
+  #   Type: AWS::EC2::VPCGatewayAttachment
+  #   Properties:
+  #     InternetGatewayId: !Ref InternetGateway
+  #     VpcId: !Ref VPC
+
+  # RouteTable:
+  #   Type: AWS::EC2::RouteTable
+  #   Properties:
+  #     VpcId: !Ref VPC
+  # DefaultRoute:
+  #     Type: AWS::EC2::Route
+  #     DependsOn: InternetGatewayAttachment
+  #     Properties:
+  #       RouteTableId: !Ref RouteTable
+  #       DestinationCidrBlock: 0.0.0.0/0
+  #       GatewayId: !Ref InternetGateway
+
+  # Subnet:
+  #   Type: AWS::EC2::Subnet
+  #   Properties:
+  #     VpcId: !Ref VPC
+  #     AvailabilityZone: !Select [ 0, !GetAZs '' ]
+  #     CidrBlock: 192.168.0.0/16
+  #     MapPublicIpOnLaunch: true
+
+  # SubnetRouteTableAssociation:
+  #   Type: AWS::EC2::SubnetRouteTableAssociation
+  #   Properties:
+  #     SubnetId: !Ref Subnet
+  #     RouteTableId: !Ref RouteTable
+  
+
+    

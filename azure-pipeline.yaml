@@ -54,6 +54,7 @@ stages:
               containerRegistry: docker
 
   - stage: pack
+    jobs:
     - job: pack_angular
       steps:
         - task: Docker@2

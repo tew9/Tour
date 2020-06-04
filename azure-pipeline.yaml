@@ -53,20 +53,20 @@ stages:
               command: logout
               containerRegistry: docker
 
-  # - stage: pack
-  #   - job: pack_angular
-  #     steps:
-  #       - task: Docker@2
-  #         inputs:
-  #           command: login
-  #           containerRegistry: docker  
-  #       - script: |
-  #           docker image build  --file .dockers/angular.dockerfile --tag tangotew/tour-angular tour-client/tour-heroes
-  #           docker image push tangotew/tour-angular
-  #       - task: Docker@2
-  #         inputs:
-  #           command: logout
-  #           containerRegistry: docker
+  - stage: pack
+    - job: pack_angular
+      steps:
+        - task: Docker@2
+          inputs:
+            command: login
+            containerRegistry: docker  
+        - script: |
+            docker image build  --file .dockers/angular.dockerfile --tag tangotew/tour-angular tour-client/tour-heroes
+            docker image push tangotew/tour-angular
+        - task: Docker@2
+          inputs:
+            command: logout
+            containerRegistry: docker
 
  
 

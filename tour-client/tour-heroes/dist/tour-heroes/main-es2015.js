@@ -87,7 +87,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class AppComponent {
     constructor() {
-        this.title = 'tour-heroes';
+        this.title = 'Tour of Heroes';
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
@@ -326,7 +326,7 @@ class HeroDetailComponent {
         this.getHero();
     }
     getHero() {
-        const id = this.route.snapshot.paramMap.get('id');
+        const id = +this.route.snapshot.paramMap.get('id');
         this.heroService.getHero(id).subscribe(hero => this.hero = hero);
     }
     goBack() {
@@ -379,15 +379,20 @@ class HeroService {
         this.messageService = messageService;
         this.httpClient = httpClient;
         this.HEROES = _mock_heroes__WEBPACK_IMPORTED_MODULE_1__["HEROES"];
-        this.url = 'http://ec2-52-14-24-91.us-east-2.compute.amazonaws.com/Tour';
+        this.url = 'http://localhost/Tour';
         this.headers = new Headers({ 'Content-Type': 'application/json' });
         this.options = { header: this.headers, withCredentials: false };
     }
     ngOnInit() {
-        // Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-        // Add 'implements OnInit' to the class.
+        //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
+        //Add 'implements OnInit' to the class.
         this.getHeroes();
     }
+    // getHeroes(): Observable<Hero[]> {
+    //   // TODO: send the messae _after_ fetching the heroes.
+    //   this.messageService.add('HeroService: fetched heroes');
+    //   return of(HEROES);
+    // }
     getHeroes() {
         // TODO: send the messae _after_ fetching the heroes.
         return this.httpClient.get(this.url, this.options);

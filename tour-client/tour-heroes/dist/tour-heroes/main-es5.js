@@ -177,7 +177,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AppComponent = function AppComponent() {
       _classCallCheck(this, AppComponent);
 
-      this.title = 'tour-heroes';
+      this.title = 'Tour of Heroes';
     };
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
@@ -664,7 +664,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function getHero() {
           var _this2 = this;
 
-          var id = this.route.snapshot.paramMap.get('id');
+          var id = +this.route.snapshot.paramMap.get('id');
           this.heroService.getHero(id).subscribe(function (hero) {
             return _this2.hero = hero;
           });
@@ -789,7 +789,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.messageService = messageService;
         this.httpClient = httpClient;
         this.HEROES = _mock_heroes__WEBPACK_IMPORTED_MODULE_1__["HEROES"];
-        this.url = 'http://ec2-52-14-24-91.us-east-2.compute.amazonaws.com/Tour';
+        this.url = 'http://localhost/Tour';
         this.headers = new Headers({
           'Content-Type': 'application/json'
         });
@@ -802,10 +802,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(HeroService, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          // Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-          // Add 'implements OnInit' to the class.
+          //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
+          //Add 'implements OnInit' to the class.
           this.getHeroes();
-        }
+        } // getHeroes(): Observable<Hero[]> {
+        //   // TODO: send the messae _after_ fetching the heroes.
+        //   this.messageService.add('HeroService: fetched heroes');
+        //   return of(HEROES);
+        // }
+
       }, {
         key: "getHeroes",
         value: function getHeroes() {

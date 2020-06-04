@@ -11,28 +11,35 @@ import { HttpClient } from '@angular/common/http';
 })
 export class HeroService {
   HEROES: Hero[] = HEROES;
-  url = 'http://ec2-52-14-24-91.us-east-2.compute.amazonaws.com/Tour';
+  url = 'http://localhost/Tour';
   headers = new Headers({'Content-Type': 'application/json'});
   options = { header: this.headers, withCredentials: false };
 
   constructor(private messageService: MessageService, private httpClient: HttpClient) { }
 
   ngOnInit(): void {
-    // Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    // Add 'implements OnInit' to the class.
+    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
+    //Add 'implements OnInit' to the class.
     this.getHeroes();
   }
+
+  // getHeroes(): Observable<Hero[]> {
+  //   // TODO: send the messae _after_ fetching the heroes.
+  //   this.messageService.add('HeroService: fetched heroes');
+
+  //   return of(HEROES);
+  // }
 
   getHeroes(): Observable<Hero[]> {
     // TODO: send the messae _after_ fetching the heroes.
     return this.httpClient.get<Hero[]>(this.url, this.options);
   }
 
-  getHero(id: string): Observable<Hero>{
+  getHero(id: number): Observable<Hero>{
     const url = `${this.url}/${id}`;
-    return this.httpClient.get<Hero>(url).pipe(
-                          tap(_ => this.log(`fetched hero id=${id}`)),
-                          catchError(this.handleError<Hero>(`getHero id=${id}`))
+  return this.httpClient.get<Hero>(url).pipe(
+    tap(_ => this.log(`fetched hero id=${id}`)),
+    catchError(this.handleError<Hero>(`getHero id=${id}`))
   );
   }
 

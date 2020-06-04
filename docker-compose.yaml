@@ -9,8 +9,8 @@ services:
       image: tango/tour-api
       networks:
         - skynet
-      # ports: 
-      #   - 80:80
+      ports: 
+        - 80:80
 
     client:
       build:
